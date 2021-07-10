@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE Pag Principal</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\footer.css">
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+        <!---- ENCABEZADO ---->
+        <header class="header">
+            
+            <!--Encabezado de la pagina, LOGO y LOGIN-->
+                    
+            <div class="header__flex">
+
+                <div class="header1-flex">
+
+                    <div class="header__logo">
+                        <a href="index.html"><img src="recursos/logo2.png" alt="LOGO"></a>
+                    </div>
+                    
+                    <nav class="header__menuCuenta">
+                        <ul>
+                            <li><a href="crear_cuenta.html">Crear cuenta</a></li>
+                            <li><a href="login.html">Iniciar Sesión</a></li>
+                        </ul>               
+                    </nav>  
+
+                </div>
+
+                <div class="header2-flex">
+
+                    <nav class="header__menuPrincipal">
+                        <ul >
+                            <li><input type="button" value="CATEGORIAS"></li>
+                            <ul class="submenu">
+                                <li>OFERTAS</li>
+                                <li>NOVEDADES</li>
+                                <li>OTOÑO/INVIERNO</li>
+                                <li>PRIMAVERA/VERANO</li>
+                                <li>TEMPORADAS ANTERIORES</li>
+                                <li>ACCESORIOS</li>
+                                <li>GIFT CARD</li>
+                            </ul> 
+                            <li><input type="search" value="BUSCAR PRODUCTO"></li>
+                            <li><a href="estado_Pedido.html"><input type="button" value="ESTADO DE MI PEDIDO"></a></li>
+                            <li><a href="carrito.html"><input type="button" value="CARRITO COMPRA"></a></li>
+                        </ul>
+                    </nav>  
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!---- CONTENIDO DE LA PAGINA ---->
+
+        <div class="body">
+
+            <!--Slider promociones-->
+            <div id="promociones">
+                <img class="body__slider" src="recursos/BLISS_55_SWEET_Env_o-gratis-2-7_CATEGOR_A-DESK_1.gif" >
+            </div>
+            
+            <!--Productos destacados-->
+            <div class="body__prodDestacados"> PRODUCTOS DESTACADOS</div>
+        
+            <!-- FlexBox -->
+            <div class="tabla__contenidos">
+                <div><img src="recursos/ABRIGOS/sweater1.jpeg" alt="Producto1"></div>
+                <div><img src="recursos/ABRIGOS/sweater2.jpeg" alt="Producto2"></div>
+                <div><img src="recursos/ABRIGOS/sweater3.jpeg" alt="Producto3"></div>
+                <div><img src="recursos/ABRIGOS/sweater4.jpeg" alt="Producto4"></div>
+                <div><img src="recursos/ABRIGOS/sweater5.jpeg" alt="Producto5"></div>
+                <div><img src="recursos/ABRIGOS/sweater6.jpeg" alt="Producto6"></div>
+                <div><img src="recursos/ABRIGOS/sweater7.jpeg" alt="Producto7"></div>
+                <div><img src="recursos/ABRIGOS/sweater8.jpeg" alt="Producto8"></div>
+                <div><img src="recursos/ABRIGOS/sweater9.jpeg" alt="Producto9"></div>
+                <div><img src="recursos/ABRIGOS/sweater10.jpeg" alt="Producto10"></div>
+                <div><img src="recursos/ABRIGOS/sweater11.jpeg" alt="Producto11"></div>
+                <div><img src="recursos/ABRIGOS/sweater12.jpeg" alt="Producto12"></div>
+            </div>
+
+            <!-- alinear al centro usando la clase, sacar de aca -->
+            <div class="body__prodDestacados__verTodo">
+                <input id="boton" type="button" value="VER TODOS">
+            </div>
+
+        </div>
+
+
+    <!---- PIE DE PAGINA ---->
+    <footer class="footer">
+        <h4>
+            <!-- Primer seccion-->
+            <div class="footer__section1">
+                
+                <div id="novedades">
+                    <div>No te pierdas nuestras novedades! </div>
+                    <div id="botones">
+                        <input type="text" value="Nombre">
+                        <input type="text" value="Email">
+                        <input type="button" value="✔">
+                    </div>
+                </div>
+
+                <div class="redes">
+                    <div>Encontranos en</div> 
+                    <div><img src="recursos/assets_footer_icons_instagram.png"></div>
+
+                    <!-- <div class="icons">
+                        <div></div>
+                        <a target="_blank" href="">
+                            <i class="icon-instagram" data-toggle="tooltip" data-placement="top" title="" data-original-title="Seguinos en Instagram" data-name="icon-instagram"></i>
+                        </a>
+                        <div></div>
+                    </div> -->
+                </div>
+
+                <div><a href="enviar_consulta.html"><input type="button" value="Contactanos"></a></div>
+            
+            </div>
+        </h4>
+
+        <!-- Segunda seccion-->
+
+        <h3 class="footer__section2">
+                <div class="option"> QUIÉNES SOMOS </div>
+                <div> ❤ </div>
+                <div class="option"> FAQS </div>
+                <div> ❤ </div>
+                <div class="option"> TÉRMINOS Y CONDICIONES </div>
+        </h3>
+
+        <!-- Tercer seccion-->
+        <h6 class="footer__copyright"> COPYRIGHT 2021 - TODOS LOS DERECHOS RESERVADOS</h6>
+
+    </footer>
+
+
+</body>
+
+
+</html>
